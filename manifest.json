@@ -1,0 +1,41 @@
+{
+  "id": "/love2moon-demo/",
+  "name": "Love2moon — Couples Companion",
+  "short_name": "Love2moon",
+  "description": "Love2moon is a daily companion app for couples — quizzes, games, and connection prompts that bring you closer together.",
+  "start_url": "/love2moon-demo/",
+  "scope": "/love2moon-demo/",
+  "display": "standalone",
+  "background_color": "#0E0B2B",
+  "theme_color": "#0E0B2B",
+  "orientation": "portrait",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["lifestyle", "social", "games"],
+  "icons": [
+    {
+      "src": "/love2moon-demo/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/love2moon-demo/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/love2moon-demo/icons/icon-1024.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/love2moon-demo/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

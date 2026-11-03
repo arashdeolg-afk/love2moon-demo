@@ -1,0 +1,17 @@
+# Love2moon
+
+Love2moon is a daily companion app for couples. It offers quizzes, games, relationship prompts, mood check-ins, and small gifts to help partners stay connected.
+
+## Homepage
+
+- https://love2moon.app/
+
+## Key public pages
+
+- https://love2moon.app/ — Marketing homepage and app entry point
+- https://love2moon.app/sign-in — Sign in to an existing account
+- https://love2moon.app/sign-up — Create a new account
+
+## About
+
+Love2moon is designed for two people in a relationship. After signing up, each partner pairs with the other using an invite code. The shared experience includes daily check-ins, relationship games, date-idea suggestions, and a gifting feature.

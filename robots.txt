@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://love2moon.app/sitemap.xml

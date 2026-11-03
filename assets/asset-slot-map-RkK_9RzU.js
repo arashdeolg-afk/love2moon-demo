@@ -1,0 +1,1 @@
+const o="/love2moon-demo/assets/moon-observatory-environment-v1-CirTrOtu.webp",e="/love2moon-demo/assets/moon-surface-albedo-v1-DiSzNj4_.webp",s="/love2moon-demo/assets/moon-conversation-keepsake-v1-iTkyaLZw.webp",n="/love2moon-demo/assets/moon-gift-keepsake-v1-BIHgmmlN.webp",t={observatoryEnv:o,moonAlbedo:e,conversationKeepsake:s,giftKeepsake:n};export{t as A};
