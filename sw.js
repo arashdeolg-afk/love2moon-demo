@@ -13,7 +13,16 @@ const CACHE_VERSION = "love2moon-v2";
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 
-const APP_SHELL = ["/love2moon-demo/", "/love2moon-demo/manifest.json"];
+// Replaced at build time with the Vite base (for example "/" or "/love2moon-demo/").
+const BASE_PATH = "/love2moon-demo/";
+
+function underBase(assetPath) {
+  const base = BASE_PATH.endsWith("/") ? BASE_PATH : `${BASE_PATH}/`;
+  if (assetPath === "/" || assetPath === "") return base;
+  return `${base}${String(assetPath).replace(/^\//, "")}`;
+}
+
+const APP_SHELL = [underBase("/"), underBase("/manifest.json")];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
@@ -89,7 +98,7 @@ async function cacheFirst(request, cacheName) {
 }
 
 self.addEventListener("push", (event) => {
-  let payload = { title: "love2moon", body: "Something new under the moon", url: "/love2moon-demo/app" };
+  let payload = { title: "love2moon", body: "Something new under the moon", url: "/app" };
   try {
     payload = { ...payload, ...(event.data ? event.data.json() : {}) };
   } catch {
@@ -98,16 +107,17 @@ self.addEventListener("push", (event) => {
   event.waitUntil(
     self.registration.showNotification(payload.title, {
       body: payload.body,
-      icon: "/love2moon-demo/icons/icon-192.png",
-      badge: "/love2moon-demo/icons/favicon-32.png",
-      data: { url: payload.url || "/love2moon-demo/app" },
+      icon: underBase("/icons/icon-192.png"),
+      badge: underBase("/icons/favicon-32.png"),
+      data: { url: payload.url || underBase("/app") },
     }),
   );
 });
 
 self.addEventListener("notificationclick", (event) => {
   event.notification.close();
-  const url = event.notification.data?.url || "/love2moon-demo/app";
+  const raw = event.notification.data?.url || underBase("/app");
+  const url = /^https?:/.test(raw) ? raw : underBase(raw.startsWith("/") ? raw : `/${raw}`);
   event.waitUntil(self.clients.openWindow(url));
 });
 
@@ -137,7 +147,7 @@ self.addEventListener("fetch", (event) => {
   // Navigation requests (loading the app shell / client-side routes).
   if (request.mode === "navigate") {
     event.respondWith(
-      networkFirst(request, RUNTIME_CACHE).catch(() => caches.match("/love2moon-demo/"))
+      networkFirst(request, RUNTIME_CACHE).catch(() => caches.match(underBase("/")))
     );
     return;
   }

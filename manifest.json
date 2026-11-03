@@ -11,7 +11,11 @@
   "orientation": "portrait",
   "lang": "en",
   "dir": "ltr",
-  "categories": ["lifestyle", "social", "games"],
+  "categories": [
+    "lifestyle",
+    "social",
+    "games"
+  ],
   "icons": [
     {
       "src": "/love2moon-demo/icons/icon-192.png",
