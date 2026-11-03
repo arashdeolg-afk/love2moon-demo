@@ -9,7 +9,7 @@
 //    couple data), so caching them risks replaying stale or another user's data
 //    after sign-out / account switch on a shared device.
 
-const CACHE_VERSION = "love2moon-v2-demo-e0f7cb2";
+const CACHE_VERSION = "love2moon-v2-demo-83fa767";
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const RUNTIME_CACHE = `${CACHE_VERSION}-runtime`;
 
