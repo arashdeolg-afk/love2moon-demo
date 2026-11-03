@@ -1,0 +1,398 @@
+{
+  "games": {
+    "aron36": {
+      "bg": "#2B1651",
+      "bg2": "#4B2C76",
+      "accent": "#E7A386",
+      "text": "#FAEFEB",
+      "contrast": 13.93
+    },
+    "battleship": {
+      "bg": "#052053",
+      "bg2": "#052966",
+      "accent": "#9C0D15",
+      "text": "#FAEBEB",
+      "contrast": 13.56
+    },
+    "catch-my-love": {
+      "bg": "#FD564E",
+      "bg2": "#F64B7D",
+      "accent": "#FE6C7C",
+      "text": "#310C10",
+      "contrast": 5.56
+    },
+    "connectFour": {
+      "bg": "#CD7512",
+      "bg2": "#D17916",
+      "accent": "#FCC116",
+      "text": "#000000",
+      "contrast": 6.15
+    },
+    "couple-quiz": {
+      "bg": "#57174B",
+      "bg2": "#531148",
+      "accent": "#ED246F",
+      "text": "#FAEBF0",
+      "contrast": 11.17
+    },
+    "date-wheel": {
+      "bg": "#D84C05",
+      "bg2": "#D84E05",
+      "accent": "#F03D32",
+      "text": "#000000",
+      "contrast": 4.96
+    },
+    "draw": {
+      "bg": "#498F2E",
+      "bg2": "#509D48",
+      "accent": "#F19A50",
+      "text": "#000000",
+      "contrast": 5.25
+    },
+    "draw-little-love": {
+      "bg": "#48AEEA",
+      "bg2": "#15429C",
+      "accent": "#53BFF1",
+      "text": "#000000",
+      "contrast": 8.52
+    },
+    "drawguess": {
+      "bg": "#C53C22",
+      "bg2": "#D34D1F",
+      "accent": "#FE9E30",
+      "text": "#FAF3EB",
+      "contrast": 4.72
+    },
+    "dream-date-builder": {
+      "bg": "#221A50",
+      "bg2": "#794E8B",
+      "accent": "#A4513A",
+      "text": "#F8EFEC",
+      "contrast": 13.93
+    },
+    "emoji": {
+      "bg": "#1365B4",
+      "bg2": "#003582",
+      "accent": "#CF7B17",
+      "text": "#FAF3EB",
+      "contrast": 5.38
+    },
+    "finishSentence": {
+      "bg": "#6EE0A7",
+      "bg2": "#0F795B",
+      "accent": "#E2AFAC",
+      "text": "#2D1110",
+      "contrast": 10.74
+    },
+    "guessMyAnswer": {
+      "bg": "#1E89C9",
+      "bg2": "#225CA8",
+      "accent": "#FD6F8F",
+      "text": "#000000",
+      "contrast": 5.48
+    },
+    "guessYourPartner": {
+      "bg": "#B82C52",
+      "bg2": "#B01E49",
+      "accent": "#FE667D",
+      "text": "#FAEBED",
+      "contrast": 5.16
+    },
+    "likely": {
+      "bg": "#62030F",
+      "bg2": "#6B0311",
+      "accent": "#CE1E2B",
+      "text": "#FAEBEC",
+      "contrast": 11.8
+    },
+    "love-kitchen": {
+      "bg": "#C25348",
+      "bg2": "#C65849",
+      "accent": "#EFA67F",
+      "text": "#000000",
+      "contrast": 4.62
+    },
+    "lovelang": {
+      "bg": "#5A0325",
+      "bg2": "#570325",
+      "accent": "#D70518",
+      "text": "#FAEBEC",
+      "contrast": 12.32
+    },
+    "matchswipe": {
+      "bg": "#A90545",
+      "bg2": "#A80545",
+      "accent": "#F42564",
+      "text": "#FAEBEF",
+      "contrast": 6.51
+    },
+    "memory": {
+      "bg": "#5269B6",
+      "bg2": "#7C8FD1",
+      "accent": "#B7CBF1",
+      "text": "#FFFFFF",
+      "contrast": 5.18
+    },
+    "memory-lane": {
+      "bg": "#8F4F21",
+      "bg2": "#A3673A",
+      "accent": "#F5C28E",
+      "text": "#FAF2EB",
+      "contrast": 5.73
+    },
+    "memory-match": {
+      "bg": "#00253F",
+      "bg2": "#002D4A",
+      "accent": "#01687E",
+      "text": "#EBF7FA",
+      "contrast": 14.38
+    },
+    "mindmeld": {
+      "bg": "#20095E",
+      "bg2": "#4A2290",
+      "accent": "#252179",
+      "text": "#ECEBFA",
+      "contrast": 14.13
+    },
+    "moondle": {
+      "bg": "#000722",
+      "bg2": "#000826",
+      "accent": "#D3941A",
+      "text": "#FAF5EB",
+      "contrast": 18.34
+    },
+    "moonhop": {
+      "bg": "#6F2592",
+      "bg2": "#2A1466",
+      "accent": "#7F339D",
+      "text": "#F5ECF9",
+      "contrast": 7.75
+    },
+    "moonlight-mystery": {
+      "bg": "#212A3D",
+      "bg2": "#494F5B",
+      "accent": "#EFD6C0",
+      "text": "#FAF2EB",
+      "contrast": 12.96
+    },
+    "number": {
+      "bg": "#0D6237",
+      "bg2": "#259360",
+      "accent": "#E8AA3A",
+      "text": "#FAF4EB",
+      "contrast": 6.81
+    },
+    "our-little-nest": {
+      "bg": "#405E29",
+      "bg2": "#405F30",
+      "accent": "#9B3930",
+      "text": "#F9EDEC",
+      "contrast": 6.44
+    },
+    "our-storybook": {
+      "bg": "#081B56",
+      "bg2": "#1B317B",
+      "accent": "#F0BC9C",
+      "text": "#FAF0EB",
+      "contrast": 14.39
+    },
+    "quiz": {
+      "bg": "#017B6A",
+      "bg2": "#0FA993",
+      "accent": "#B35E16",
+      "text": "#FFFFFF",
+      "contrast": 5.19
+    },
+    "rps": {
+      "bg": "#087985",
+      "bg2": "#1A5062",
+      "accent": "#F66E45",
+      "text": "#FAEEEB",
+      "contrast": 4.53
+    },
+    "same-wavelength": {
+      "bg": "#192572",
+      "bg2": "#1B2C81",
+      "accent": "#0D69BF",
+      "text": "#EBF3FA",
+      "contrast": 12.09
+    },
+    "songemoji": {
+      "bg": "#540C98",
+      "bg2": "#1D0870",
+      "accent": "#400E93",
+      "text": "#F0EBFA",
+      "contrast": 9.54
+    },
+    "spicy": {
+      "bg": "#E83B11",
+      "bg2": "#C81118",
+      "accent": "#FA611F",
+      "text": "#000000",
+      "contrast": 5.06
+    },
+    "spin": {
+      "bg": "#161A4A",
+      "bg2": "#2C2865",
+      "accent": "#FBD17C",
+      "text": "#FAF5EB",
+      "contrast": 15.09
+    },
+    "stages": {
+      "bg": "#CA5978",
+      "bg2": "#604786",
+      "accent": "#FCD2AD",
+      "text": "#000000",
+      "contrast": 5.21
+    },
+    "starlight-relay": {
+      "bg": "#141241",
+      "bg2": "#2C2561",
+      "accent": "#382B6F",
+      "text": "#EFEDF8",
+      "contrast": 15.21
+    },
+    "storyBuilder": {
+      "bg": "#371202",
+      "bg2": "#521F03",
+      "accent": "#CD6C0D",
+      "text": "#FAF2EB",
+      "contrast": 15.17
+    },
+    "ticTacToe": {
+      "bg": "#352086",
+      "bg2": "#3B2B96",
+      "accent": "#53CAEF",
+      "text": "#EBF6FA",
+      "contrast": 11.22
+    },
+    "truth-tender-dare": {
+      "bg": "#98163C",
+      "bg2": "#AB1F47",
+      "accent": "#F1597D",
+      "text": "#FAEBEE",
+      "contrast": 7.23
+    },
+    "truthDare": {
+      "bg": "#202473",
+      "bg2": "#2D2F85",
+      "accent": "#FC7E13",
+      "text": "#FAF2EB",
+      "contrast": 12.15
+    },
+    "twoTruths": {
+      "bg": "#243756",
+      "bg2": "#365075",
+      "accent": "#78BE41",
+      "text": "#F2F8EC",
+      "contrast": 11.06
+    },
+    "wyr": {
+      "bg": "#FD911E",
+      "bg2": "#FA5837",
+      "accent": "#FEDD65",
+      "text": "#31290C",
+      "contrast": 6.36
+    }
+  },
+  "spicy": {
+    "fantasy-builder": {
+      "bg": "#070206",
+      "bg2": "#0C020A",
+      "accent": "#6A4E27",
+      "text": "#F8F3EC",
+      "contrast": 18.64
+    },
+    "mood-sync": {
+      "bg": "#10010F",
+      "bg2": "#160111",
+      "accent": "#66051B",
+      "text": "#FAEBEE",
+      "contrast": 17.6
+    },
+    "moon-dice": {
+      "bg": "#180102",
+      "bg2": "#180202",
+      "accent": "#690506",
+      "text": "#FAEBEB",
+      "contrast": 17.38
+    },
+    "never-after-dark": {
+      "bg": "#0C0001",
+      "bg2": "#120102",
+      "accent": "#9A080B",
+      "text": "#FAEBEB",
+      "contrast": 17.86
+    },
+    "roleplay-deck": {
+      "bg": "#090001",
+      "bg2": "#430002",
+      "accent": "#99050A",
+      "text": "#FAEBEB",
+      "contrast": 17.93
+    },
+    "secret-dare-drop": {
+      "bg": "#0B0001",
+      "bg2": "#450102",
+      "accent": "#860407",
+      "text": "#FAEBEB",
+      "contrast": 17.89
+    },
+    "spicy": {
+      "bg": "#280304",
+      "bg2": "#1A0203",
+      "accent": "#AD0204",
+      "text": "#FAEBEB",
+      "contrast": 16.42
+    },
+    "spicy-bingo": {
+      "bg": "#280001",
+      "bg2": "#280001",
+      "accent": "#CC1C2A",
+      "text": "#FAEBEC",
+      "contrast": 16.65
+    },
+    "spicy-match": {
+      "bg": "#0B0001",
+      "bg2": "#180103",
+      "accent": "#D01A15",
+      "text": "#FAEBEB",
+      "contrast": 17.89
+    },
+    "spicy-roulette": {
+      "bg": "#1D0303",
+      "bg2": "#320001",
+      "accent": "#AF0B0E",
+      "text": "#FAEBEB",
+      "contrast": 17.01
+    },
+    "strip-trivia": {
+      "bg": "#150001",
+      "bg2": "#160001",
+      "accent": "#710001",
+      "text": "#FAEBEB",
+      "contrast": 17.58
+    },
+    "tease-timer": {
+      "bg": "#0B0001",
+      "bg2": "#100001",
+      "accent": "#660206",
+      "text": "#FAEBEB",
+      "contrast": 17.89
+    },
+    "truth-tender-dare": {
+      "bg": "#090101",
+      "bg2": "#0D0101",
+      "accent": "#9E070F",
+      "text": "#FAEBEB",
+      "contrast": 17.86
+    },
+    "truthDare": {
+      "bg": "#070000",
+      "bg2": "#0D0001",
+      "accent": "#AB0203",
+      "text": "#FAEBEB",
+      "contrast": 17.99
+    }
+  }
+}
